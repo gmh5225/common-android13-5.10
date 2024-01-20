@@ -9,6 +9,7 @@ schedtool dpkg-dev liblz4-tool make optipng maven libssl-dev \
 pwgen libswitch-perl policycoreutils minicom libxml-sax-base-perl \
 libxml-simple-perl bc libc6-dev-i386 lib32ncurses-dev \
 x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev xsltproc unzip
+
 sudo apt-get install repo
 repo init -u https://android.googlesource.com/kernel/manifest -b common-android13-5.10
 repo sync
